@@ -1,0 +1,8 @@
+<h2>Componente Practica</h2>
+<p>Conectar a un empoind - JSON y comsumir datos</p>
+<ul>
+    <li *ngFor="let dato of datos">
+        <img src="{{ dato.thumbnailUrl }}" alt="{{ dato.name }}" width="100" height="100">
+        {{ dato._id }} - {{ dato.title }}
+    </li>
+</ul>
